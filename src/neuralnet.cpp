@@ -13,10 +13,10 @@ std::vector<NeuronLayer> NeuralNet::getNetwork(){
 	return network;
 }
 void print(){
-	maxHeight = 0;
+	/*maxHeight = 0;
 	for(int i=-1; i<network.size(); i++){
 		if(network.at(i).getNeurons().size()*network.at(i-1).getNeurons().size() > maxHeight ){
 			maxHeight = network.at(i).getNeurons().size()*network.at(i-1).getNeurons().size();
 		}
-	}
+	}*/
 }
